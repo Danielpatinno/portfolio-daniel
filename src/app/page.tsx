@@ -29,7 +29,7 @@ export default function Home() {
             <a
               className="flex items-center"
               download="Currículo Daniel"
-              href="https://drive.google.com/file/d/1ccTptwuMMCUPdTEEdZLQ4NWvwJrdYMO2/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1fzhmJwIzvc732y4BUPNDDl8KYPwhnAre/view?usp=drive_link"
             >
               <ArrowDownToLine /> Download Currículo
             </a>
