@@ -5,11 +5,20 @@ import calculadora from "@/assets/calculadora.jpg";
 import listaTarefa from "@/assets/listaTarefa.jpg";
 import bestPizza from "@/assets/bestPizza.jpg";
 import dashboard from "@/assets/dashboard.jpg";
+import gerenciador from "@/assets/gerenciador.png";
+
 
 import { CartProject } from "@/components/project/cart-project";
 
 export default function Project() {
   const projects = [
+    {
+      name: "Gerenciador de tarefas",
+      deployLink: "https://task-manager-sand-two.vercel.app/",
+      srcImage: gerenciador,
+      gitHubLink: "https://github.com/Danielpatinno/task-manager.git",
+      tecnologies: "VueJs, Typescript, Node.js",
+    },
     {
       name: "Best Pizza",
       deployLink: "https://main--bestpiza.netlify.app/",
