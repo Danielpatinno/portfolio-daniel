@@ -1,5 +1,4 @@
 import { Footer } from "@/components/home/footer";
-import { MapPin } from "lucide-react";
 import Image from "next/image";
 import daniel02 from "@/assets/daniel02.jpeg";
 
