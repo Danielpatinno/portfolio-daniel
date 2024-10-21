@@ -7,7 +7,6 @@ import bestPizza from "@/assets/bestPizza.jpg";
 import dashboard from "@/assets/dashboard.jpg";
 import gerenciador from "@/assets/gerenciador.png";
 
-
 import { CartProject } from "@/components/project/cart-project";
 
 export default function Project() {
