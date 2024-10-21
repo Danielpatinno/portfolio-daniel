@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
 import daniel01 from "@/assets/daniel01.jpeg";
+
 export default function Home() {
   return (
     <main>
