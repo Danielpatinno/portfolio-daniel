@@ -8,15 +8,11 @@ export default function About() {
     <main>
       <section className="flex flex-col sm:min-h-screen justify-center items-center">
         <div className="text-center lg:mt-14 text-3xl lg:text-4xl">
-          <h1 className="mb-2 font-bold">
+          <h1 className="mt-4 mb-6 font-bold">
             Daniel <span className="text-primary">Patino</span>
           </h1>
-          <p className="flex gap-2 justify-center items-center text-lg lg:text-xl">
-            <MapPin className="text-primary" />
-            Maringá-PR
-          </p>
         </div>
-        <div className="flex justify-center items-center h-52 w-52 lg:h-72 lg:w-72 rounded-full overflow-hidden border-2 border-primary mb-4">
+        <div className="flex justify-center items-center h-52 w-52 lg:h-80 lg:w-80 rounded-2xl overflow-hidden border-2 border-primary mb-4">
           <Image
             src={daniel02}
             alt="Daniel"

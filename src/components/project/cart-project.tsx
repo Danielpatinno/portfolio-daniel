@@ -19,7 +19,7 @@ export function CartProject({ project }: CartProjectProps) {
       <Image
         src={project.srcImage}
         alt={project.name}
-        className="mt-4 h-40 lg:h-52"
+        className="mt-4 h-40 lg:h-56 object-cover"
       />
 
       <div className="mb-2">
