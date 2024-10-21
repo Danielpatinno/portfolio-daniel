@@ -35,8 +35,10 @@ export default function Contact() {
               Maringá-PR
             </p>
           </div>
+
           <SocialCart />
         </div>
+
         <div className="w-full lg:w-1/2 mt-8">
           <FormContact />
         </div>
