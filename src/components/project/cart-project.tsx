@@ -1,5 +1,4 @@
 import Image, { StaticImageData } from "next/image";
-
 import { FaGithubSquare } from "react-icons/fa";
 import { GrDeploy } from "react-icons/gr";
 
@@ -19,7 +18,7 @@ export function CartProject({ project }: CartProjectProps) {
       <Image
         src={project.srcImage}
         alt={project.name}
-        className="mt-4 h-40 lg:h-56 object-cover"
+        className="mt-4 h-auto lg:h-auto object-contain" // Ajuste aqui
       />
 
       <div className="mb-2">
