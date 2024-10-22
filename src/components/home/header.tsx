@@ -43,7 +43,7 @@ export function Header() {
               className="block w-full text-base md:text-lg px-4 py-2 rounded-lg"
               onClick={closeMenu}
             >
-              SOBRE MIN
+              SOBRE
             </Link>
           </li>
           <li className="hover:text-primary">
