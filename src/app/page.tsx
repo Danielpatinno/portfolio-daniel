@@ -33,7 +33,7 @@ export default function Home() {
             </a>
           </Button>
         </div>
-        <div className="flex justify-center items-center w-full mt-6 lg:w-2/4 lg:h-[40rem] h-64 overflow-hidden">
+        <div className="flex justify-center items-center w-full mt-6 mb-6 lg:w-2/4 lg:h-[40rem] h-64 overflow-hidden">
           <div className="border-2 border-primary rounded-full w-64 h-64 lg:w-full lg:h-full">
             <Image
               src={daniel01}
