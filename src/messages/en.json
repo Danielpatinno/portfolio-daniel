@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "title": "Daniel Patino — Portfolio",
+    "description": "Daniel Patino's portfolio — front-end developer."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "language": {
+    "label": "Language",
+    "pt": "Português",
+    "es": "Español",
+    "en": "English"
+  },
+  "a11y": {
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "whatsapp": "WhatsApp"
+  },
+  "home": {
+    "greeting": "Hi! I'm",
+    "role": "Front-end Developer",
+    "intro": "I build websites with React, TypeScript, Next.js, Tailwind CSS and other modern tools to create great web experiences.",
+    "downloadCv": "Download résumé",
+    "heroImageAlt": "Daniel",
+    "skillsEyebrow": "Stack",
+    "skillsTitle": "Skills",
+    "skillsDescription": "Tools and languages I use to build fast, accessible interfaces that are easy to maintain."
+  },
+  "skills": {
+    "html": "HTML",
+    "css": "CSS",
+    "javascript": "JavaScript",
+    "typescript": "TypeScript",
+    "react": "React",
+    "tailwind": "Tailwind CSS",
+    "redux": "Redux",
+    "git": "Git"
+  },
+  "about": {
+    "profileImageAlt": "Daniel Patino",
+    "eyebrow": "Introduction",
+    "title": "About me",
+    "description": "A bit about my journey from Paraguay to Brazil, and what drives me in front-end development.",
+    "p1": "I'm passionate about technology, focused on front-end development. I'm in my third year of Software Engineering and have solid experience with React, TypeScript, Tailwind CSS and Styled-Components.",
+    "p2": "I'm originally from Paraguay, born in Asunción, and I've been living in Brazil for two years, improving my skills in web development.",
+    "p3": "My journey in programming started with a genuine interest in building impactful, intuitive digital experiences. Over time I grew a strong affinity for front-end, where I can combine creativity and technical skills to build modern, efficient user interfaces.",
+    "p4": "Beyond front-end, I have back-end knowledge with Node.js, which helps me understand and collaborate effectively on full-stack projects.",
+    "p5": "I'm always looking for new challenges and opportunities to learn and grow. Feel free to explore my projects and get in touch for collaborations or to learn more about my work.",
+    "cta": "View my projects"
+  },
+  "contact": {
+    "eyebrow": "Let's talk",
+    "title": "Contact",
+    "description": "Send a message through the form or use the channels below — I'll get back to you as soon as I can.",
+    "location": "Maringá, Paraná, Brazil"
+  },
+  "projects": {
+    "eyebrow": "Portfolio",
+    "title": "Projects",
+    "description": "Selected work showing how I apply the stack day to day — from layout to delivery.",
+    "deploy": "Deploy",
+    "github": "GitHub",
+    "items": {
+      "taskManager": {
+        "name": "Task manager",
+        "tech": "VueJs, Typescript, Node.js"
+      },
+      "bestPizza": {
+        "name": "Best Pizza",
+        "tech": "NextJs, Typescript, TailwindCss, Stripe"
+      },
+      "dashboardBestPizza": {
+        "name": "Best Pizza Dashboard",
+        "tech": "NextJs, Typescript, TailwindCss, Stripe"
+      },
+      "sorteio": {
+        "name": "Raffle app",
+        "tech": "ReactJS, Typescript and Tailwind CSS"
+      },
+      "todoList": {
+        "name": "Todo list",
+        "tech": "ReactJs, Typescript and Styled-Components"
+      },
+      "cronometro": {
+        "name": "Stopwatch",
+        "tech": "HTML, CSS and JavaScript"
+      },
+      "calculadora": {
+        "name": "Calculator",
+        "tech": "HTML, CSS and JavaScript"
+      }
+    }
+  },
+  "form": {
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Send message",
+    "placeholderName": "Enter your name",
+    "placeholderEmail": "Enter your email",
+    "placeholderMessage": "Write your message",
+    "errorName": "Please enter your name (at least 3 characters).",
+    "errorEmail": "Please enter a valid email.",
+    "errorMessage": "Please write a message.",
+    "toastSuccess": "Message sent."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hi Daniel, I liked your profile — can we chat?"
+  }
+}

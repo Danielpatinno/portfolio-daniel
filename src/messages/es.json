@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "title": "Portafolio Daniel",
+    "description": "Portafolio de Daniel Patino — desarrollador front-end."
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "language": {
+    "label": "Idioma",
+    "pt": "Português",
+    "es": "Español",
+    "en": "English"
+  },
+  "a11y": {
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "whatsapp": "WhatsApp"
+  },
+  "home": {
+    "greeting": "¡Hola! Soy",
+    "role": "Desarrollador Front-end",
+    "intro": "Desarrollo sitios web con React, TypeScript, Next.js, Tailwind CSS y otras tecnologías modernas para crear experiencias web increíbles.",
+    "downloadCv": "Descargar CV",
+    "heroImageAlt": "Daniel",
+    "skillsEyebrow": "Stack",
+    "skillsTitle": "Habilidades",
+    "skillsDescription": "Herramientas y lenguajes que uso para construir interfaces rápidas, accesibles y fáciles de mantener."
+  },
+  "skills": {
+    "html": "HTML",
+    "css": "CSS",
+    "javascript": "Javascript",
+    "typescript": "Typescript",
+    "react": "ReactJs",
+    "tailwind": "Tailwind CSS",
+    "redux": "Redux",
+    "git": "Git"
+  },
+  "about": {
+    "profileImageAlt": "Daniel Patino",
+    "eyebrow": "Presentación",
+    "title": "Sobre mí",
+    "description": "Un poco de mi trayectoria, de Paraguay a Brasil, y lo que me motiva en el front-end.",
+    "p1": "Me apasiona la tecnología, con foco en desarrollo front-end. Estoy en tercer año de Ingeniería de Software y tengo sólida experiencia con React, TypeScript, TailwindCSS y Styled-Components.",
+    "p2": "Soy de Paraguay, nací en Asunción y hace dos años vivo en Brasil, donde sigo mejorando mis habilidades en desarrollo web.",
+    "p3": "Mi camino en la programación empezó por un interés genuino en crear experiencias digitales impactantes e intuitivas. Con el tiempo desarrollé una fuerte afinidad con el front-end, donde combino creatividad y técnica para construir interfaces modernas y eficientes.",
+    "p4": "Además del front-end, tengo conocimientos de back-end con Node.js, lo que me permite entender y colaborar en proyectos full-stack.",
+    "p5": "Siempre busco nuevos retos y oportunidades para aprender y crecer. Explora mis proyectos y contáctame para colaboraciones o para saber más sobre mi trabajo.",
+    "cta": "Ver mis proyectos"
+  },
+  "contact": {
+    "eyebrow": "Hablemos",
+    "title": "Contacto",
+    "description": "Envía un mensaje con el formulario o usa los canales de abajo — respondo lo antes posible.",
+    "location": "Maringá, Paraná, Brasil"
+  },
+  "projects": {
+    "eyebrow": "Portafolio",
+    "title": "Proyectos",
+    "description": "Algunos trabajos que muestran cómo aplico el stack día a día — del layout a la entrega.",
+    "deploy": "Deploy",
+    "github": "GitHub",
+    "items": {
+      "taskManager": {
+        "name": "Gestor de tareas",
+        "tech": "VueJs, Typescript, Node.js"
+      },
+      "bestPizza": {
+        "name": "Best Pizza",
+        "tech": "NextJs, Typescript, TailwindCss, Stripe"
+      },
+      "dashboardBestPizza": {
+        "name": "Dashboard Best Pizza",
+        "tech": "NextJs, Typescript, TailwindCss, Stripe"
+      },
+      "sorteio": {
+        "name": "Sorteo",
+        "tech": "ReactJS, Typescript y Tailwind CSS"
+      },
+      "todoList": {
+        "name": "Lista de tareas",
+        "tech": "ReactJs, Typescript y Styled-Components"
+      },
+      "cronometro": {
+        "name": "Cronómetro",
+        "tech": "HTML, CSS y Javascript"
+      },
+      "calculadora": {
+        "name": "Calculadora",
+        "tech": "HTML, CSS y Javascript"
+      }
+    }
+  },
+  "form": {
+    "name": "Nombre",
+    "email": "Correo",
+    "message": "Mensaje",
+    "submit": "Enviar mensaje",
+    "placeholderName": "Escribe tu nombre",
+    "placeholderEmail": "Escribe tu correo",
+    "placeholderMessage": "Escribe tu mensaje",
+    "errorName": "Escribe tu nombre (mínimo 3 caracteres).",
+    "errorEmail": "Introduce un correo válido.",
+    "errorMessage": "Escribe un mensaje.",
+    "toastSuccess": "Mensaje enviado."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola Daniel, me gustó tu perfil — ¿podemos hablar?"
+  }
+}

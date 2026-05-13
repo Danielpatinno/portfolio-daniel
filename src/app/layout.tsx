@@ -1,25 +1,25 @@
-import { Header } from "@/components/home/header";
-import type { Metadata } from "next";
+import { NextIntlClientProvider } from "next-intl";
+import { getLocale, getMessages } from "next-intl/server";
 import { Quicksand } from "next/font/google";
+
 import "./globals.css";
 
-const inter = Quicksand({ weight: ["400"], subsets: ["latin"] });
+const font = Quicksand({ weight: ["400"], subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: "Portfólio Daniel",
-  description: "Porfólio Daniel, conheça um pouco sobre min.",
-};
-
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const locale = await getLocale();
+  const messages = await getMessages();
+
   return (
-    <html lang="en">
-      <body className={inter.className}>
-        <Header />
-        {children}
+    <html lang={locale} suppressHydrationWarning>
+      <body className={font.className}>
+        <NextIntlClientProvider messages={messages}>
+          {children}
+        </NextIntlClientProvider>
       </body>
     </html>
   );

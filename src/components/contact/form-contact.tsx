@@ -1,6 +1,8 @@
 "use client";
 
 import { zodResolver } from "@hookform/resolvers/zod";
+import { useTranslations } from "next-intl";
+import { useMemo } from "react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 
@@ -20,21 +22,24 @@ import {
   FormLabel,
   FormMessage,
 } from "@/components/ui/form";
-
-const formSchema = z.object({
-  name: z.string().min(3, {
-    message: "Dígite seu nome.",
-  }),
-  email: z.string().email({
-    message: "Digite um e-mail válido.",
-  }),
-  message: z.string().min(1, {
-    message: "Escreve uma mensagem",
-  }),
-});
+import { SurfaceCard } from "@/components/layout/surface-card";
 
 export function FormContact() {
-  const form = useForm<z.infer<typeof formSchema>>({
+  const t = useTranslations("form");
+
+  const formSchema = useMemo(
+    () =>
+      z.object({
+        name: z.string().min(3, { message: t("errorName") }),
+        email: z.string().email({ message: t("errorEmail") }),
+        message: z.string().min(1, { message: t("errorMessage") }),
+      }),
+    [t],
+  );
+
+  type FormValues = z.infer<typeof formSchema>;
+
+  const form = useForm<FormValues>({
     resolver: zodResolver(formSchema),
     defaultValues: {
       name: "",
@@ -45,7 +50,7 @@ export function FormContact() {
 
   const { reset } = form;
 
-  function onSubmit(values: z.infer<typeof formSchema>) {
+  function onSubmit(values: FormValues) {
     try {
       formSchema.parse(values);
 
@@ -62,8 +67,7 @@ export function FormContact() {
         "DBUTbU1__bZj9-cQp",
       );
 
-      toast.success("Mensagem enviada.");
-      console.log("Fórmulário enviado com sucesso!");
+      toast.success(t("toastSuccess"));
       reset();
     } catch (error) {
       console.log(error);
@@ -72,55 +76,62 @@ export function FormContact() {
 
   return (
     <Form {...form}>
-      <form
-        onSubmit={form.handleSubmit(onSubmit)}
-        className="m-auto w-10/12 space-y-8"
-      >
-        <FormField
-          control={form.control}
-          name="name"
-          render={({ field }) => (
-            <FormItem>
-              <FormLabel>Nome:</FormLabel>
-              <FormControl>
-                <Input placeholder="Dígite seu nome aqui" {...field} />
-              </FormControl>
-              <FormMessage />
-            </FormItem>
-          )}
-        />
+      <>
+        <SurfaceCard className="p-6 sm:p-8">
+          <form
+            onSubmit={form.handleSubmit(onSubmit)}
+            className="mx-auto w-full max-w-lg space-y-8 lg:mx-0"
+          >
+            <FormField
+              control={form.control}
+              name="name"
+              render={({ field }) => (
+                <FormItem>
+                  <FormLabel>{t("name")}</FormLabel>
+                  <FormControl>
+                    <Input placeholder={t("placeholderName")} {...field} />
+                  </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
 
-        <FormField
-          control={form.control}
-          name="email"
-          render={({ field }) => (
-            <FormItem>
-              <FormLabel>E-mail:</FormLabel>
-              <FormControl>
-                <Input placeholder="Dígite seu e-mail aqui" {...field} />
-              </FormControl>
-              <FormMessage />
-            </FormItem>
-          )}
-        />
+            <FormField
+              control={form.control}
+              name="email"
+              render={({ field }) => (
+                <FormItem>
+                  <FormLabel>{t("email")}</FormLabel>
+                  <FormControl>
+                    <Input placeholder={t("placeholderEmail")} {...field} />
+                  </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
 
-        <FormField
-          control={form.control}
-          name="message"
-          render={({ field }) => (
-            <FormItem>
-              <FormLabel>Mensagem:</FormLabel>
-              <FormControl>
-                <Textarea placeholder="Dígite sua mensagem aqui" {...field} />
-              </FormControl>
-              <FormMessage />
-            </FormItem>
-          )}
-        />
+            <FormField
+              control={form.control}
+              name="message"
+              render={({ field }) => (
+                <FormItem>
+                  <FormLabel>{t("message")}</FormLabel>
+                  <FormControl>
+                    <Textarea
+                      placeholder={t("placeholderMessage")}
+                      {...field}
+                    />
+                  </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
 
-        <Button>Enviar Mensagem</Button>
-      </form>
-      <Toaster />
+            <Button type="submit">{t("submit")}</Button>
+          </form>
+        </SurfaceCard>
+        <Toaster />
+      </>
     </Form>
   );
 }
