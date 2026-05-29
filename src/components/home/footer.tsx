@@ -24,7 +24,7 @@ export function Footer() {
   };
 
   return (
-    <footer className="mt-auto flex flex-col items-center justify-center gap-4 border-t border-white/10 bg-black/20 px-4 py-10">
+    <footer className="flex flex-col items-center justify-center gap-4 border-t border-white/10 bg-black/20 px-4 py-10">
       <p className="text-center text-sm text-white/70">
         &copy; {new Date().getFullYear()} — Daniel Patino
       </p>

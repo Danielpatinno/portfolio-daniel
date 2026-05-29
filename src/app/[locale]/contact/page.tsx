@@ -7,7 +7,6 @@ import { FaLocationDot } from "react-icons/fa6";
 import { Footer } from "@/components/home/footer";
 import { FormContact } from "@/components/contact/form-contact";
 import { SocialCart } from "@/components/contact/social-cart";
-import { SectionHeader } from "@/components/layout/section-header";
 import { SurfaceCard } from "@/components/layout/surface-card";
 
 function ContactRow({
@@ -35,14 +34,8 @@ export default async function ContactPage({
 
   return (
     <main>
-      <section className="flex min-h-screen flex-col pb-12">
-        <SectionHeader
-          eyebrow={t("eyebrow")}
-          title={t("title")}
-          description={t("description")}
-        />
-
-        <div className="container mx-auto max-w-6xl flex-1 px-4 pb-8 sm:px-6 lg:px-8">
+      <section className="flex flex-col">
+        <div className="container mx-auto max-w-6xl px-4 pb-10 pt-4 sm:px-6 lg:px-8 lg:pt-28">
           <div className="flex flex-col gap-10 lg:flex-row lg:items-start lg:justify-between lg:gap-14">
             <div className="flex w-full flex-col gap-8 lg:max-w-md">
               <SurfaceCard className="space-y-5 p-6 sm:p-8">

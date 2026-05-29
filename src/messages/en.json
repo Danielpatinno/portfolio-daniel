@@ -27,6 +27,7 @@
     "role": "Front-end Developer",
     "intro": "I build websites with React, TypeScript, Next.js, Tailwind CSS and other modern tools to create great web experiences.",
     "downloadCv": "Download résumé",
+    "cvUrl": "https://drive.google.com/file/d/1PbWKOfsZYSB-QsEiO-hxKgCnpJGnNrqg/view?usp=drive_link",
     "heroImageAlt": "Daniel",
     "skillsEyebrow": "Stack",
     "skillsTitle": "Skills",
@@ -38,12 +39,19 @@
     "javascript": "JavaScript",
     "typescript": "TypeScript",
     "react": "React",
+    "nextjs": "Next.js",
     "tailwind": "Tailwind CSS",
     "redux": "Redux",
-    "git": "Git"
+    "git": "Git",
+    "dart": "Dart",
+    "flutter": "Flutter",
+    "supabase": "Supabase",
+    "firebase": "Firebase",
+    "gtm": "GTM"
   },
   "about": {
     "profileImageAlt": "Daniel Patino",
+    "role": "Front-end Developer",
     "eyebrow": "Introduction",
     "title": "About me",
     "description": "A bit about my journey from Paraguay to Brazil, and what drives me in front-end development.",
@@ -67,10 +75,6 @@
     "deploy": "Deploy",
     "github": "GitHub",
     "items": {
-      "taskManager": {
-        "name": "Task manager",
-        "tech": "VueJs, Typescript, Node.js"
-      },
       "bestPizza": {
         "name": "Best Pizza",
         "tech": "NextJs, Typescript, TailwindCss, Stripe"
@@ -78,22 +82,6 @@
       "dashboardBestPizza": {
         "name": "Best Pizza Dashboard",
         "tech": "NextJs, Typescript, TailwindCss, Stripe"
-      },
-      "sorteio": {
-        "name": "Raffle app",
-        "tech": "ReactJS, Typescript and Tailwind CSS"
-      },
-      "todoList": {
-        "name": "Todo list",
-        "tech": "ReactJs, Typescript and Styled-Components"
-      },
-      "cronometro": {
-        "name": "Stopwatch",
-        "tech": "HTML, CSS and JavaScript"
-      },
-      "calculadora": {
-        "name": "Calculator",
-        "tech": "HTML, CSS and JavaScript"
       }
     }
   },

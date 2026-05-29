@@ -27,6 +27,7 @@
     "role": "Desarrollador Front-end",
     "intro": "Desarrollo sitios web con React, TypeScript, Next.js, Tailwind CSS y otras tecnologías modernas para crear experiencias web increíbles.",
     "downloadCv": "Descargar CV",
+    "cvUrl": "https://drive.google.com/file/d/1-Qo0WdBLb6LM49v3yezQeFq-53Y3SAAk/view?usp=drive_link",
     "heroImageAlt": "Daniel",
     "skillsEyebrow": "Stack",
     "skillsTitle": "Habilidades",
@@ -38,16 +39,23 @@
     "javascript": "Javascript",
     "typescript": "Typescript",
     "react": "ReactJs",
+    "nextjs": "Next.js",
     "tailwind": "Tailwind CSS",
     "redux": "Redux",
-    "git": "Git"
+    "git": "Git",
+    "dart": "Dart",
+    "flutter": "Flutter",
+    "supabase": "Supabase",
+    "firebase": "Firebase",
+    "gtm": "GTM"
   },
   "about": {
     "profileImageAlt": "Daniel Patino",
+    "role": "Desarrollador Front-end",
     "eyebrow": "Presentación",
     "title": "Sobre mí",
     "description": "Un poco de mi trayectoria, de Paraguay a Brasil, y lo que me motiva en el front-end.",
-    "p1": "Me apasiona la tecnología, con foco en desarrollo front-end. Estoy en tercer año de Ingeniería de Software y tengo sólida experiencia con React, TypeScript, TailwindCSS y Styled-Components.",
+    "p1": "Me apasiona la tecnología, con enfoque en desarrollo front-end. Soy Ingeniero de Software y tengo sólida experiencia con React, TypeScript, TailwindCSS y Styled-Components.",
     "p2": "Soy de Paraguay, nací en Asunción y hace dos años vivo en Brasil, donde sigo mejorando mis habilidades en desarrollo web.",
     "p3": "Mi camino en la programación empezó por un interés genuino en crear experiencias digitales impactantes e intuitivas. Con el tiempo desarrollé una fuerte afinidad con el front-end, donde combino creatividad y técnica para construir interfaces modernas y eficientes.",
     "p4": "Además del front-end, tengo conocimientos de back-end con Node.js, lo que me permite entender y colaborar en proyectos full-stack.",
@@ -67,10 +75,6 @@
     "deploy": "Deploy",
     "github": "GitHub",
     "items": {
-      "taskManager": {
-        "name": "Gestor de tareas",
-        "tech": "VueJs, Typescript, Node.js"
-      },
       "bestPizza": {
         "name": "Best Pizza",
         "tech": "NextJs, Typescript, TailwindCss, Stripe"
@@ -78,22 +82,6 @@
       "dashboardBestPizza": {
         "name": "Dashboard Best Pizza",
         "tech": "NextJs, Typescript, TailwindCss, Stripe"
-      },
-      "sorteio": {
-        "name": "Sorteo",
-        "tech": "ReactJS, Typescript y Tailwind CSS"
-      },
-      "todoList": {
-        "name": "Lista de tareas",
-        "tech": "ReactJs, Typescript y Styled-Components"
-      },
-      "cronometro": {
-        "name": "Cronómetro",
-        "tech": "HTML, CSS y Javascript"
-      },
-      "calculadora": {
-        "name": "Calculadora",
-        "tech": "HTML, CSS y Javascript"
       }
     }
   },

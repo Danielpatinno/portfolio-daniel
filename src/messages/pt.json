@@ -27,6 +27,7 @@
     "role": "Desenvolvedor FrontEnd",
     "intro": "Eu desenvolvo websites usando React, TypeScript, Next.js, Tailwind CSS e outras tecnologias modernas para criar experiências web incríveis.",
     "downloadCv": "Download Currículo",
+    "cvUrl": "https://drive.google.com/file/d/10ASEP834JEIHxtee7gImL--0zSz6ZTeC/view?usp=drive_link",
     "heroImageAlt": "Daniel",
     "skillsEyebrow": "Stack",
     "skillsTitle": "Habilidades",
@@ -38,16 +39,23 @@
     "javascript": "Javascript",
     "typescript": "Typescript",
     "react": "ReactJs",
+    "nextjs": "Next.js",
     "tailwind": "Tailwind CSS",
     "redux": "Redux",
-    "git": "Git"
+    "git": "Git",
+    "dart": "Dart",
+    "flutter": "Flutter",
+    "supabase": "Supabase",
+    "firebase": "Firebase",
+    "gtm": "GTM"
   },
   "about": {
     "profileImageAlt": "Daniel Patino",
+    "role": "Desenvolvedor FrontEnd",
     "eyebrow": "Apresentação",
     "title": "Sobre mim",
     "description": "Um pouco da minha trajetória, do Paraguai ao Brasil, e do que me move no front-end.",
-    "p1": "Sou um apaixonado por tecnologia, com foco em desenvolvimento front-end. Atualmente, estou no terceiro ano de Engenharia de Software e possuo uma sólida experiência em programação com React, TypeScript, TailwindCSS e Styled-Components.",
+    "p1": "Sou um apaixonado por tecnologia, com foco em desenvolvimento front-end. Sou Engenheiro de Software e possuo uma sólida experiência em programação com React, TypeScript, TailwindCSS e Styled-Components.",
     "p2": "Originalmente do Paraguai, nasci em Assunção e há dois anos resido no Brasil, onde tenho aprimorado minhas habilidades e conhecimentos na área de desenvolvimento web.",
     "p3": "Minha jornada no mundo da programação começou com um interesse genuíno em criar experiências digitais impactantes e intuitivas. Com o tempo, desenvolvi uma forte afinidade com o front-end, onde posso combinar minha criatividade e habilidades técnicas para construir interfaces de usuário modernas e eficientes.",
     "p4": "Além do meu foco no front-end, tenho conhecimento em back-end com Node.js, o que me permite compreender e colaborar efetivamente em projetos full-stack.",
@@ -67,10 +75,6 @@
     "deploy": "Deploy",
     "github": "GitHub",
     "items": {
-      "taskManager": {
-        "name": "Gerenciador de tarefas",
-        "tech": "VueJs, Typescript, Node.js"
-      },
       "bestPizza": {
         "name": "Best Pizza",
         "tech": "NextJs, Typescript, TailwindCss, Stripe"
@@ -78,22 +82,6 @@
       "dashboardBestPizza": {
         "name": "Dashboard Best Pizza",
         "tech": "NextJs, Typescript, TailwindCss, Stripe"
-      },
-      "sorteio": {
-        "name": "Sorteio",
-        "tech": "ReactJS, Typescript e Tailwind CSS"
-      },
-      "todoList": {
-        "name": "Lista de Tarefas",
-        "tech": "ReactJs, Typescript e Styled-Components"
-      },
-      "cronometro": {
-        "name": "Cronômetro",
-        "tech": "HTML, CSS e Javascript"
-      },
-      "calculadora": {
-        "name": "Calculadora",
-        "tech": "HTML, CSS e Javascript"
       }
     }
   },

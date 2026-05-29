@@ -5,7 +5,6 @@ import Image from "next/image";
 import daniel01 from "@/assets/daniel01.jpeg";
 import { Footer } from "@/components/home/footer";
 import { Skils } from "@/components/home/skils";
-import { SectionHeader } from "@/components/layout/section-header";
 import { Button } from "@/components/ui/button";
 
 export default async function HomePage({
@@ -35,8 +34,9 @@ export default async function HomePage({
           <Button className="mt-8">
             <a
               className="flex items-center"
-              download="Currículo Daniel"
-              href="https://drive.google.com/file/d/1fzhmJwIzvc732y4BUPNDDl8KYPwhnAre/view?usp=drive_link"
+              href={t("cvUrl")}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <ArrowDownToLine className="mr-2" />
               {t("downloadCv")}
@@ -56,15 +56,11 @@ export default async function HomePage({
           </div>
         </div>
       </section>
-      <section className="flex min-h-screen flex-col">
-        <SectionHeader
-          eyebrow={t("skillsEyebrow")}
-          title={t("skillsTitle")}
-          description={t("skillsDescription")}
-          headingLevel={2}
-        />
+      <section className="flex min-h-screen flex-col pt-6 lg:pt-24">
         <Skils />
-        <Footer />
+        <div className="mt-auto">
+          <Footer />
+        </div>
       </section>
     </main>
   );
